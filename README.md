@@ -11,9 +11,16 @@ Object Oriented approach in a standard JavaScript, HTML, CSS application.
 
 You need Node.js and NPM installed
 
-## Quick start
+## Quick start (Dev Build)
 
     $ npm install
+    $ npm run build
+    $ npm run start
+
+## Quick start (Prod Build)
+
+    $ npm install
+    $ npm run build:prod
     $ npm run start
 
 ## Configuration
