@@ -18,7 +18,15 @@ You need Node.js and NPM installed
 
 ## Configuration
 
-The ts.config.json file contains all necessary TypeScript configuration
+The ts.config.json file contains all necessary TypeScript configuration. Once the lite-server is running,
+run:
+
+```bash
+tsc -w
+```
+
+This will autocompile the TypeScript code into the dist/ folder. Lite-server will
+auto-reload once the compiled JavaScript files appear and properly display the project.
 
 ## License
 
