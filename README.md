@@ -4,7 +4,7 @@
 
 This is a basic custom framework used to demonstrate how TypeScript is used in common Frameworks such as Angular.
 It demonstrates all of the best TypeScript functionality, such as Decorators, Generics, and various patterns,
-such as the Singleton Pattern. It is meant to run locally using lite-server and demonstrate the power of an
+such as the Singleton Pattern. It is meant to run locally using webpack and demonstrate the power of an
 Object Oriented approach in a standard JavaScript, HTML, CSS application.
 
 ## Requirements
@@ -18,14 +18,14 @@ You need Node.js and NPM installed
 
 ## Configuration
 
-The ts.config.json file contains all necessary TypeScript configuration. Once the lite-server is running,
+The ts.config.json file contains all necessary TypeScript configuration. Once the webpack is running,
 run:
 
 ```bash
 tsc -w
 ```
 
-This will autocompile the TypeScript code into the dist/ folder. Lite-server will
+This will autocompile the TypeScript code into the dist/ folder. Webpack will
 auto-reload once the compiled JavaScript files appear and properly display the project.
 
 ## License
